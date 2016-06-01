@@ -1,3 +1,4 @@
+
 import os
 
 getenv = os.environ.get
@@ -26,6 +27,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_swagger',
     'djangoexample.accounts',
+    'djangoexample.users',
+    'djangoexample.organizations',
+    'djangoexample.testing',
 ]
 
 
